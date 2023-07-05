@@ -128,7 +128,7 @@ Transitions are now local by default to prevent confusion around page navigation
 	...
 	{#if success}
 		<p in:slide>Success</p>
-	{/each}
+	{/if}
 {/if}
 ```
 
