@@ -237,7 +237,7 @@ function strip_origin(str) {
  * @param {string} file
  */
 async function read_d_ts_file(file) {
-	const resolved = path.resolve('../../packages/svelte', file);
+	const resolved = path.resolve('./node_modules/svelte', file);
 
 	// We can't use JSDoc comments inside JSDoc, so we would get ts(7031) errors if
 	// we didn't ignore this error specifically for `/// file:` code examples
